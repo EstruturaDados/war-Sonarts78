@@ -15,7 +15,7 @@ int main() {
 
     printf("=== Cadastro de Territórios ===\n");
 
-    // Laço para entrada dos dados de cada território
+    // entrada dos dados de cada território
     for (int i = 0; i < 5; i++) {
         printf("\nTerritório %d:\n", i + 1);
 
