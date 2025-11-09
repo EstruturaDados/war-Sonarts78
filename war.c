@@ -10,7 +10,7 @@ typedef struct {
 } Territorio;
 
 int main() {
-    // Declaração de vetor para armazenar 5 territórios
+    // Declaração vetor para armazenar 5 territórios
     Territorio territorios[5];
 
     printf("=== Cadastro de Territórios ===\n");
