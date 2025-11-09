@@ -30,6 +30,26 @@ int main() {
         // Entrada do número de tropas
         printf("Digite o número de tropas: ");
         scanf("%d", &territorios[i].tropas);
+
+        // Definição struct de território
+        typedef struct {
+        int id;
+        int tropas;
+        int conquistado; // 0 = não, 1 = sim
+        }Territorio;
+
+        Territorio* inicializarTerritorios(int n) {
+        Territorio* territorios = (Territorio*) calloc(n, sizeof(Territorio));
+        for (int i = 0; i < n; i++) {
+        territorios[i].id = i + 1;
+        territorios[i].tropas = 3; // valor inicial
+        territorios[i].conquistado = 0;
+  }
+  return territorios;
+}
+
+        
+        
     }
 
    
